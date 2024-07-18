@@ -1,0 +1,115 @@
+/* Updated CSS: styles.css */
+
+.header {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-and-links {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.top-right-options {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 0px;
+    margin-right: 10px;
+}
+
+.language-selector {
+    margin-right: 10px;
+}
+
+.subscribe-btn,
+.sign-in-btn {
+    background-color: orange;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-btn:hover,
+.sign-in-btn:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+/* ... Previous CSS code ... */
+
+.featured-albums {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.90);
+}
+
+.featured-albums h2 {
+    font-size: 2em;
+    padding-right:1300px;
+    color:white;
+}
+
+.side-albums {
+    text-align: left; /* Align text to the left */
+    padding: 50px;
+}
+
+.side-albums h2 {
+    font-size: 2em;
+}
+
+
+.album-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.album {
+    width: 200px;
+    margin: 20px;
+}
+
+.album img {
+    width: 100%;
+      max-height: 300px; /* Set a maximum height for the album cover */
+    object-fit: cover; /* Ensure the image covers the container */
+
+    border-radius: 5px;
+}
+
+.album h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color:white;
+}
+
+
+
